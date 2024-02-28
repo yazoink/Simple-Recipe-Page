@@ -13,7 +13,6 @@ Currently not being hosted anywhere.
 ### TODO
 - pdfs/printables (LaTeX(?))
 - write a script to parse to the recipe file
-- make adding themes easier
 - more recipes
 - handling more recipes/multi page lists
 - search(?)
