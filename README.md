@@ -18,7 +18,7 @@ Currently not being hosted anywhere.
 - handling more recipes/multi page lists
 - search(?)
 
-## Adding/Modifying
+## Documentation
 ### Themes
 1. create a css file under `css/themes` named `Theme-Name.css`.
 2. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
@@ -54,6 +54,7 @@ The format for a recipe in `json/recipes.json` goes as such;
 - `"featured"` determines whether the recipe will show on the navbar under **Featured**
 - anything under `"categories"` which is not mentioned in `$CATEGORIES` array (from `dynamic/globals.php`) will be ignored
 - `"description"` is optional
+- I prefer to put the recipes in alphabetical order but doing otherwise will not impact the functionality of the site
     
 ### Screenshots
 ![recipe_page_1](https://github.com/yazoink/php-json-recipe-site/assets/98802603/49f522b5-6541-48fc-ab8a-9c7d2cae77ef)
