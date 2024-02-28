@@ -4,7 +4,7 @@ Currently not being hosted anywhere.
 
 Features:
 - switchable themes
-- easy to add new recipes if you can be bothered to write a thing to parse to the recipe file
+- easy to add new recipes if you can be bothered to write a thing to parse to the recipe file (yes, I manually typed all the json)
 - bloat free
 - it looks nice
 
