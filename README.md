@@ -19,15 +19,15 @@ Currently not being hosted anywhere.
 - search(?)
 
 ## Documentation
-### Themes
+### Creating themes
 1. create a css file under `css/themes` named `Theme-Name.css`.
 2. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
 3. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
 
-### Categories
+### Adding/removing categories
 Add/remove categories from `$CATEGORIES` array in `dynamic/globals.php`.
 
-### Recipes
+### Adding/modifying recipes
 The format for a recipe in `json/recipes.json` goes as such;
 ```json
 {
