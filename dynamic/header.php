@@ -6,7 +6,7 @@ require "dynamic/globals.php";
 
 if (!array_key_exists($_COOKIE['theme'], $THEMES)) {
     $url = current_url();
-    setcookie('theme', 'Gruvbox-Dark', time() + (86400 * 30), "/");
+    setcookie('theme', $DEFAULT_THEME, time() + (86400 * 30), "/");
     header("Location:". $url);
 }
 ?>
