@@ -2,26 +2,7 @@
 require "dynamic/print_pages.php";
 require "dynamic/utils.php";
 require "dynamic/colors.php";
-
-$URL_PREFIX = "index.php";
-$CATEGORIES = array(
-                    "Sweet",
-                    "Savory",
-                    "Grill",
-                    "Microwave",
-                    "Oven",
-                    "Stove",
-                    "Breakfast",
-                    "Lunch",
-                    "Dinner",
-                    "Snack"
-);
-$THEMES = array(
-                "Catppuccin-Mocha" => "Catppuccin Mocha",
-                "Gruvbox-Dark" => "Gruvbox Dark",
-                "Rose-Pine-Moon" => "Rosé Pine Moon",
-                "Dracula" => "Dracula"
-);
+require "dynamic/globals.php";
 
 if (!array_key_exists($_COOKIE['theme'], $THEMES)) {
     $url = current_url();
