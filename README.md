@@ -19,9 +19,27 @@ Currently not being hosted anywhere.
 
 ## Documentation
 ### Creating themes
-1. create a css file under `css/themes` named `Theme-Name.css`.
-2. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
-3. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
+1. create a css file under `css/themes` named `Theme-Name.css`. It should be formatted as such (below is contents of `css/themes/Gruvbox-Dark.css`);
+```css
+:root {
+    --content-bg: #3c3836;
+    --navbar-bg: #282828;
+    --title-footer-button-select-bg: #1d2021;
+    --a: #83a598;
+    --a-hover: #458588;
+    --h1: #83a598;
+    --a-h1-hover: #458588;
+    --h2: #d3869b;
+    --a-h2-hover: #b16286;
+    --h3: #8ec07c;
+    --li-marker: #fb4934;
+    --fg: #ebdbb2;
+    --border: #665c54;
+    --hr: #fabd2f;
+}
+```
+3. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
+4. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
 
 ### Adding/removing categories
 Add/remove categories from `$CATEGORIES` array in `dynamic/globals.php`.
