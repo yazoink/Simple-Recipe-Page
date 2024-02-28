@@ -47,7 +47,7 @@ Add/remove categories from `$CATEGORIES` array in `dynamic/globals.php`.
 ### Adding/modifying recipes
 The format for a recipe in `json/recipes.json` goes as such;
 ```json
-{
+    {
         "title": "name of recipe",
         "featured": true,
         "description": "recipe description",
