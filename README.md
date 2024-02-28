@@ -41,6 +41,9 @@ Currently not being hosted anywhere.
 3. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
 4. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
 
+### Changing the default theme
+Set `$DEFAULT_THEME` in `dynamic/globals.php` to it's corresponding array key in `$THEMES`.
+
 ### Adding/removing categories
 Add/remove categories from `$CATEGORIES` array in `dynamic/globals.php`.
 
