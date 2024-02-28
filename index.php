@@ -68,4 +68,4 @@ $json = json_decode($json_str, true);
         <p><<- <a href='https://yazoinkywoinky.neocities.org'>yazoink</a> | 2024 -->></p>
     </div>
 </div>
-<?php require "static/footer.html"; ?>
+</html>
