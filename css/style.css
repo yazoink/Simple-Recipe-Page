@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Cascadia Code";
+    src: url(../fonts/cascadia_code/woff2/static/CascadiaCode-SemiBold.woff2);
+    font-weight: normal;
+    style: normal;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 250px 600px;
+    grid-template-rows: 70px auto 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 15px;
+}
+
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 15px;
+}
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 15px;
+}
+
+.foot {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.button, select {
+    font-family: "Cascadia Code";
+    font-size: 16px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+    min-width: 850px;
+    word-wrap: break-word;
+    border: 3px solid #665c54;
+    margin-top: 15px;
+    font-family: "Cascadia Code";
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: -10px;
+}
+
+ol {
+    margin-left: -10px;
+    counter-reset: item;
+}
+
+ol>li {
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol>li:before {
+    font-weight: bold;
+    text-align: right;
+    content: counter(item) ") ";
+    margin-left: -15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-bottom: none;
+}

@@ -1,0 +1,16 @@
+:root {
+    --content-bg: #1e1e2e;
+    --navbar-bg: #181825;
+    --title-footer-button-select-bg: #11111b;
+    --a: #89B4FA;
+    --a-hover: rgba(137, 180, 250, 0.75);
+    --h1: #89B4FA;
+    --a-h1-hover: rgba(137, 180, 250, 0.75);
+    --h2: #F5C2E7;
+    --a-h2-hover: rgba(245, 194, 231, 0.75);
+    --h3: #94E2D5;
+    --li-marker: #F38BA8;
+    --fg: #CDD6F4;
+    --border: #585b70;
+    --hr: #F9E2AF;
+}

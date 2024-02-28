@@ -1,0 +1,139 @@
+[
+    {
+        "title": "French Toast",
+        "featured": true,
+        "description": "This was the recipe from the assignment that snowballed this whole project.",
+        "categories": [
+            "Sweet",
+            "Stove",
+            "Breakfast"
+        ],
+        "ingredients": [
+            "6 thick slices bread",
+            "2 eggs",
+            "2/3 cup milk",
+            "1/4 teaspoon ground cinnamon (optional)",
+            "1/4 teaspoon ground nutmeg (optional)",
+            "1 teaspoon vanilla extract (optional)",
+            "salt to taste"
+        ],
+        "directions": [
+            "Beat together egg, milk, salt, spices and vanilla.",
+            "Heat a lightly oiled pan over medium-high heat.",
+            "Dunk each slice of bread in egg mixture, soaking both sides.",
+            "Place in pan and cook on both sides until golden.",
+            "Serve hot."
+        ]
+    },
+    {
+        "title": "Spiced Apple Pancakes",
+        "featured": false,
+        "description": "Stolen from <a href='https://based.cooking/spiced-apple-pancakes/'>based.cooking</a> in the process of trying to fill out this site with recipes.",
+        "categories": [
+            "Sweet",
+            "Stove",
+            "Breakfast"
+        ],
+        "ingredients": [
+            "1 cup flour",
+            "1 large apple, peeled",
+            "1 tbsp sugar",
+            "1 tbsp cinnamon (more to taste)",
+            "1/2 tsp baking powder",
+            "1 pinch salt",
+            "1 tsp vanilla extract",
+            "1 tsp vanilla extract",
+            "1 egg",
+            "1 tbsp butter"
+        ],
+        "directions": [
+            "In a medium bowl, combine flour, sugar, cinnamon, baking powder and salt.",
+            "Separate egg yolk and egg white. Add the egg yolk to the dry ingredients.",
+            "Whisk the egg white until foamy.",
+            "Slice the peeled apple into thin strips. Alternatively, grate the apple.",
+            "Combine dry ingredients, apple, vanilla extract, egg white and milk to create a batter.",
+            "Heat butter in a large pan. Add the batter (about 3 tbsp per pancake) and cook for 2 minutes per side on medium height."
+        ]
+    },
+    {
+        "title": "Sweet and Sour Chicken Noodles",
+        "description": "Taken from <a href='https://www.jamieoliver.com/recipes/chicken-recipes/sweet-sour-chicken-noodles/'>here</a>.",
+        "featured": true,
+        "categories": [
+            "Savory",
+            "Lunch",
+            "Dinner",
+            "Stove"
+        ],
+        "ingredients": [
+            "2 x 200g chicken thighs, skin on, bone in",
+            "150g fine rice noodles",
+            "200g sugar snap peas",
+            "2 tbsp Worcestershire sauce",
+            "2 teaspoons chilli jam"
+        ],
+        "directions": [
+            "Pull the skin off the chicken. Place the skin in a large non-stick frying pan on a medium heat to render and get golden, turning occasionally.",
+            "Cut the bones out of the thighs and chuck into the pan for bonus flavour, then chop the meat into 2cm pieces. ",
+            "Move the skin and bones to one side of the pan, then add the meat alongside and cook for 5 minutes, or until golden, stirring occasionally. ",
+            "Once crispy, remove, chop and reserve the skin, discarding the bones.",
+            "Meanwhile, cook the noodles in boiling salted water according to the packet instructions. Halve the sugar snaps lengthways. ",
+            "Once soft, drain the noodles, reserving a mugful of cooking water, then refresh under cold water.",
+            "Use scissors to snip the noodles into roughly 8cm lengths.",
+            "Stir the Worcestershire sauce and chilli jam into the chicken pan and let the jam melt, then add the sugar snaps and noodles.",
+            "Toss over the heat for 2 minutes, adding a splash of reserved noodle water to loosen, if needed.",
+            "Taste and season to perfection with sea salt and black pepper, then dish up and sprinkle over the reserved crispy chicken skin."
+        ]
+    },
+    {
+        "title": "Teriyaki Fish Skewers",
+        "featured": false,
+        "categories": [
+            "Savory",
+            "Stove",
+            "Dinner"
+        ],
+        "ingredients": [
+            "1/4 cup teriyaki sauce",
+            "1 garlic clove, crushed",
+            "500g ling fish fillets, cut into 3cm cubes",
+            "1 tbsp vegetable oil",
+            "Steamed jasmine rice, to serve",
+            "Steamed asian vegetables, to serve"
+        ],
+        "directions": [
+            "Combine teriyaki sauce and garlc in a bowl.",
+            "Add fish and stir to coat.",
+            "Cover and refrigerate for 1 hour, if time permits",
+            "Thread fish onto skewers. place on a plate.",
+            "Heat oil in a large non-stick frying pan over medium-high heat. Cook skewers for 3 to 4 minutes on each side or until cooked through.",
+            "Serve with rice and vegetables."
+        ]
+    },
+    {
+        "title": "Zucchini Slice",
+        "featured": true,
+        "categories": [
+            "Savory",
+            "Oven",
+            "Snack",
+            "Lunch"
+        ],
+        "ingredients": [
+            "5 eggs",
+            "1 cup white flour",
+            "375g zucchini, grated",
+            "1 large onion, finely chopped",
+            "200g rindless bacon, chopped",
+            "1 cup grated cheddar cheese",
+            "1/4 cup cooking oil"
+        ],
+        "directions": [
+            "Preheat the oven to 170C.",
+            "Beat the eggs in a large bowl until combined",
+            "Add the flour and beat until smooth.",
+            "Add zucchini, onion, bacon, cheese and oil and stir to combine.",
+            "Grease and line a 30 x 20cm lamington pan. Pour in the mixture and bake for 30 minutes or until cooked through."
+        ]
+    }
+]
