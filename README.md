@@ -52,7 +52,7 @@ The format for a recipe in `json/recipes.json` goes as such;
     },
 ```
 - `"featured"` determines whether the recipe will show on the navbar under **Featured**
-- anything under `"categories"` which is not mentioned in `$CATEGORIES` array (declared in `dynamic/globals.php`) will be ignored
+- anything under `"categories"` which is not mentioned in `$CATEGORIES` array (from `dynamic/globals.php`) will be ignored
 - `"description"` is optional
     
 ### Screenshots
