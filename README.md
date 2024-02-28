@@ -1,4 +1,6 @@
-This is basically just a school assignment that got very out of hand
+This is basically just a school assignment that got very out of hand.
+
+Currently not being hosted anywhere.
 
 Features:
 - switchable themes
