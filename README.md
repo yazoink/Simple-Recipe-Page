@@ -22,10 +22,10 @@ Currently not being hosted anywhere.
 ### Themes
 1. create a css file under `css/themes` named `Theme-Name.css`.
 2. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
-3. add theme to `$THEMES` array in `dynamic/header.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
+3. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
 
 ### Categories
-Add/remove categories from `$CATEGORIES` array in `dynamic/header.php`.
+Add/remove categories from `$CATEGORIES` array in `dynamic/globals.php`.
 
 ### Recipes
 The format for a recipe in `json/recipes.json` goes as such;
@@ -52,7 +52,7 @@ The format for a recipe in `json/recipes.json` goes as such;
     },
 ```
 - `"featured"` determines whether the recipe will show on the navbar under **Featured**
-- anything under `"categories"` which is not mentioned in `$CATEGORIES` array (declared in `dynamic/header.php`) will be ignored
+- anything under `"categories"` which is not mentioned in `$CATEGORIES` array (declared in `dynamic/globals.php`) will be ignored
 - `"description"` is optional
     
 ### Screenshots
