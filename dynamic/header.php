@@ -1,7 +1,6 @@
 <?php
 require "dynamic/print_pages.php";
 require "dynamic/utils.php";
-require "dynamic/colors.php";
 require "dynamic/globals.php";
 
 if (!array_key_exists($_COOKIE['theme'], $THEMES)) {
