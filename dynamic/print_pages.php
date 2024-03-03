@@ -36,7 +36,7 @@ function print_recipe($recipe) {
     $ingredients = $recipe['ingredients'];
     $directions = $recipe['directions'];
     $categories = $recipe['categories'];
-    $url = $URL_PRFIX . "?r=" . str_replace(' ', '+', $recipe['title']);
+    $url = $URL_PREFIX . "?r=" . str_replace(' ', '+', $recipe['title']);
     echo "<a href='". $url . "'><h2>" . $recipe['title'] . "</h2></a>";
     echo "<hr />";
     if (!empty($description)) {
