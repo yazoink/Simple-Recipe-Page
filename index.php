@@ -65,7 +65,7 @@ $json = json_decode($json_str, true);
     ?>
     </div>
     <div class='foot'>
-        <p><<- <a href='https://yazoinkywoinky.neocities.org'>yazoink</a> | 2024 -->></p>
+        <p>&lt;&lt;- <a href='https://yazoinkywoinky.neocities.org'>yazoink</a> | 2024 --&gt;&gt;</p>
     </div>
 </div>
 </html>

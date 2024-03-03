@@ -13,7 +13,7 @@ $url = current_url();
             }
         }
         ?>
-        <input type='hidden' name="url" value="<?php echo $url; ?>" />
-        <input class='button' type='submit' name='change_theme' value='Refresh'/>
     </select>
+    <input type='hidden' name="url" value="<?php echo $url; ?>" />
+    <input class='button' type='submit' name='change_theme' value='Refresh'/>
 </form>
