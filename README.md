@@ -2,7 +2,7 @@
 
 This is basically just a school assignment that got very out of hand.
 
-Currently not being hosted anywhere.
+Demo currently being hosted [here](https://simplerecipepage.great-site.net/index.php?r=French+Toast).
 
 ### Features
 - switchable themes
