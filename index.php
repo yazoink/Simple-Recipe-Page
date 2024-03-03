@@ -65,7 +65,7 @@ $json = json_decode($json_str, true);
     ?>
     </div>
     <div class='foot'>
-        <p>&lt;&lt;- <a href='https://github.com/yazoink/php-json-recipe-site'>source</a> | 2024 --&gt;&gt;</p>
+        <p>&lt;&lt;- <a href='https://github.com/yazoink/php-json-recipe-site'>Source</a> | 2024 --&gt;&gt;</p>
     </div>
 </div>
 </html>
