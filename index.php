@@ -6,13 +6,13 @@ $json = json_decode($json_str, true);
 ?>
 <div class='container'>
     <div class='title'>
-    <a href='<?php echo $URL_PREFIX; ?>?l=Home'><h1>Simple Recipe Page</h1></a>
+    <a href='index.php'><h1>Simple Recipe Page</h1></a>
     </div>
     <div class='navbar'>
         <h2>Navigation</h2><br />
         <h3>Links</h3>
         <ul>
-        <li><a href='<?php echo $URL_PREFIX; ?>?l=Home'>Home</a></li>
+        <li><a href='index.php'>Home</a></li>
         <li><a href='<?php echo $URL_PREFIX; ?>?l=All+Recipes'>All Recipes</a></li>
         <li><a href='<?php echo $URL_PREFIX; ?>?l=Random+Recipe'>Random Recipe</a></li>
         <li><a href='<?php echo $URL_PREFIX; ?>?l=Credits'>Credits</a></li>
