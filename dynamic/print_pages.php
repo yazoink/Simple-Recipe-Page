@@ -81,7 +81,7 @@ function find_random_recipe ($json) {
     $max = count($json) - 1;
     $index = rand(0, $max);
     $recipe = $json[$index];
-    return $recipe;
+    header('Location:' . $URL_PREFIX . '?r=' . str_replace(' ', '+', $json[$index]['title']));
 }
 
 
