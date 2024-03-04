@@ -16,6 +16,7 @@ if (!array_key_exists($_COOKIE['theme'], $THEMES)) {
     <meta charset='utf-8' />
     <link type='text/css' rel='stylesheet' href='css/style.css' />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
     <title>Simple Recipe Page</title>
     <?php print_theme_css(); ?>
 </head>
