@@ -48,8 +48,6 @@ $json = json_decode($json_str, true);
             print_recipe($recipe);
         } elseif ($_GET['l'] == 'Credits') {
             require "static/credits.html";
-        } elseif ($_GET['l'] == 'Home') {
-            require "static/home.html";
         } else {
             echo "<p>Page not found :(</p>";
         }
