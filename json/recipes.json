@@ -26,6 +26,44 @@
         ]
     },
     {
+        "title": "Penne Alla Vodka",
+        "featured": false,
+        "description": "Most delicious pasta, easy to cook and impressive to others.",
+        "categories": [
+            "Savory",
+            "Stove",
+            "Dinner"
+        ],
+        "ingredients": [
+            "500g Penne Pasta",
+            "100g Prosciutto cut into strips (optional)",
+            "3 cloves garlic, sliced thin",
+            "3/4 cup cream",
+            "3-4 tablespoons vodka",
+            "1 can peeled tomatoes",
+            "1 teaspoon red pepper flakes",
+            "1 stem of basil",
+            "1/4 cup of parsley",
+            "1/2 cup parm for garnish",
+            "2-3 tablespoons of olive oil",
+            "2 tablespoons unsalted butter",
+            "salt & pepper"
+        ],
+        "directions": [
+            "Puree tommatos, finely slice garlic and prosciutto.",
+            "Cook prosciutto in the olive oil on medium to high heat.",
+            "When the prosciutto begins to crisp up add the garlic and basil stem.",
+            "When the garlic browns, turn off heat and add vodka.",
+            "Let the vodka calm down, and turn heat back on until the vodka is reduced to almost nothing.",
+            "Remove the basil stem, and add the pureed tomatoes.",
+            "While waiting for the tomatoes to reduce, cook the pasta in a pot of salted water.",
+            "Reduce tomatoes until the sauce becomes very thick.",
+            "Add the cream, red pepper, salt, pepper and allow to simmer for a few minutes.",
+            "Once the pasta is al dente, drain and transfer to the sauce with the butter allowing a few minutes for the pasta to marry the sauce",
+            "Serve with the parm and parsley as a garnish."
+        ]
+    },
+    {
         "title": "Spiced Apple Pancakes",
         "featured": false,
         "description": "Stolen from <a href='https://based.cooking/spiced-apple-pancakes/'>based.cooking</a> in the process of trying to fill out this site with recipes.",
