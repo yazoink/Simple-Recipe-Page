@@ -1,8 +1,16 @@
 <?php 
-require "dynamic/header.php";
+require "dynamic/globals.php";
+require "dynamic/utils.php";
+require "dynamic/print_pages.php";
 
 $json_str = file_get_contents('json/recipes.json');
 $json = json_decode($json_str, true);
+
+if (array_key_exists('l', $_GET) && $_GET['l'] == "Random Recipe") {
+    $recipe = find_random_recipe($json);
+}
+
+require "dynamic/header.php";
 ?>
 <div class='container'>
     <div class='title'>
@@ -44,7 +52,6 @@ $json = json_decode($json_str, true);
         if ($_GET['l'] == 'All Recipes') {
             print_all_recipes($json);
         } elseif ($_GET['l'] == 'Random Recipe') {
-            $recipe = find_random_recipe($json);
             print_recipe($recipe);
         } elseif ($_GET['l'] == 'Credits') {
             require "static/credits.html";

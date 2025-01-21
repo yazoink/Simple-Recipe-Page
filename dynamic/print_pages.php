@@ -32,7 +32,10 @@ function print_category($json, $category) {
 }
 
 function print_recipe($recipe) {
-    $description = $recipe['description'];
+    $description = "";
+    if (array_key_exists('description', $recipe)) {
+        $description = $recipe['description'];
+    }
     $ingredients = $recipe['ingredients'];
     $directions = $recipe['directions'];
     $categories = $recipe['categories'];
