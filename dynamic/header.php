@@ -3,7 +3,7 @@ require "dynamic/print_pages.php";
 require "dynamic/utils.php";
 require "dynamic/globals.php";
 
-if (!array_key_exists($_COOKIE['theme'], $THEMES)) {
+if (!array_key_exists('theme', $_COOKIE) || !array_key_exists($_COOKIE['theme'], $THEMES)) {
     $url = current_url();
     setcookie('theme', $DEFAULT_THEME, time() + (86400 * 30), "/");
     header("Location:". $url);
