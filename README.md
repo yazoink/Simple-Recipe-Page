@@ -4,6 +4,8 @@ This is basically just a school assignment that got very out of hand.
 
 Demo currently being hosted [here](https://recipes.yazo.ink).
 
+Feel free to self-host this. There are no docker images or anything because I'm lazy but all you need is a web server that supports PHP.
+
 ### Features
 - switchable themes
 - easy to add new recipes if you can be bothered to write a thing to parse to the recipe file (yes, I manually typed all the json)
