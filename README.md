@@ -77,4 +77,4 @@ The format for a recipe in `json/recipes.json` goes as such;
 - I prefer to put the recipes in alphabetical order but doing otherwise will not impact the functionality of the site
     
 ### Screenshots
-![Screenshot 2025-01-21 at 17-49-51 Simple Recipe Page](https://github.com/user-attachments/assets/00547ba7-d57d-4fa4-ad61-4ff9331f514b)
+![Screenshot 2025-01-21 at 18-08-43 Simple Recipe Page](https://github.com/user-attachments/assets/e2543064-f73a-4308-a1a3-4479eaf4a914)
