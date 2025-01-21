@@ -70,7 +70,7 @@ require "dynamic/header.php";
     ?>
     </div>
     <div class='foot'>
-        <p>&lt;&lt;- <a href='https://github.com/yazoink/Simple-Recipe-Page'>Source</a> | 2024 --&gt;&gt;</p>
+        <p>Created by <a href='https://yazo.ink'>yazoink</a>.</p>
     </div>
 </div>
 </html>

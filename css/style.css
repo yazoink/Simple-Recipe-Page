@@ -1,16 +1,31 @@
 @font-face {
-    font-family: "Cascadia Code";
-    src: url(../fonts/cascadia_code/woff2/static/CascadiaCode-SemiBold.woff2);
+    font-family: "Rubik";
+    src: url(../fonts/rubik/Rubik-Regular.ttf);
     font-weight: normal;
+    style: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/rubik/Rubik-Bold.ttf);
+    font-weight: bold;
     style: normal;
 }
 
 .container {
     display: grid;
+    column-gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     grid-template-columns: 250px 600px;
     grid-template-rows: 70px auto 50px;
-    height: 100%;
-    width: 100%;
+    border-radius: 20px;
+    min-width: 880px;
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .title {
@@ -18,7 +33,7 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding: 15px;
+    align-self: center;
 }
 
 .navbar {
@@ -26,7 +41,8 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .content {
@@ -34,7 +50,8 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .foot {
@@ -47,22 +64,26 @@
 }
 
 .button, select {
-    font-family: "Cascadia Code";
+    font-family: "Rubik";
     font-size: 16px;
     border: none;
-    padding: 5px;
-    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
 }
 
 body {
     margin-left: auto;
     margin-right: auto;
-    max-width: 850px;
-    min-width: 850px;
+    max-width: 1000px;
+    min-width: 1000px;
     word-wrap: break-word;
-    border: 3px solid #665c54;
     margin-top: 15px;
-    font-family: "Cascadia Code";
+    font-family: "Rubik";
     font-size: 16px;
 }
 

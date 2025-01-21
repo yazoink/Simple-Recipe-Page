@@ -1,7 +1,9 @@
 :root {
-    --content-bg: #44475a;
-    --navbar-bg: #282a36;
-    --title-footer-button-select-bg: #21222C;
+    --bg0: #21222C;
+    --bg1: #282a36;
+    --bg2: #44475a;
+    --fg: #F8F8F2;
+    --border: #44475a;
     --a: #D6ACFF;
     --a-hover: #BD93F9;
     --h1: #D6ACFF;
@@ -10,7 +12,5 @@
     --a-h2-hover: #FF79C6;
     --h3: #A4FFFF;
     --li-marker: #FF6E6E;
-    --fg: #F8F8F2;
-    --border: #44475a;
     --hr: #f1fa8c;
 }

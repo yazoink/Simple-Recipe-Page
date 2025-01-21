@@ -1,7 +1,7 @@
 :root {
-    --content-bg: #fbf1c7;
-    --navbar-bg: #ebdbb2;
-    --title-footer-button-select-bg: #d5c4a1;
+    --bg0: #d5c4a1;
+    --bg1: #ebdbb2;
+    --bg2: #fbf1c7;
     --a: #076678;
     --a-hover: #458588;
     --h1: #076678;
@@ -11,6 +11,6 @@
     --h3: #427b58;
     --li-marker: #cc241d;
     --fg: #3c3836;
-    --border: #504945;
+    --border: #BDAE93;
     --hr: #d79921;
 }
