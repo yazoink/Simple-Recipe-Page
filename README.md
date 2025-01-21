@@ -77,8 +77,4 @@ The format for a recipe in `json/recipes.json` goes as such;
 - I prefer to put the recipes in alphabetical order but doing otherwise will not impact the functionality of the site
     
 ### Screenshots
-![recipe_page_1](https://github.com/yazoink/php-json-recipe-site/assets/98802603/49f522b5-6541-48fc-ab8a-9c7d2cae77ef)
-![recipe_page_2](https://github.com/yazoink/php-json-recipe-site/assets/98802603/c8582e5a-7a60-43a6-abff-fab11a5c6c1b)
-![recipe_page_4](https://github.com/yazoink/php-json-recipe-site/assets/98802603/b1da098a-3632-4534-b6b2-6e010b943027)
-![recipe_page_3](https://github.com/yazoink/php-json-recipe-site/assets/98802603/fb1d0f3b-e824-496b-a0a3-5588e52037ae)
-
+![Screenshot 2025-01-21 at 17-49-51 Simple Recipe Page](https://github.com/user-attachments/assets/00547ba7-d57d-4fa4-ad61-4ff9331f514b)
