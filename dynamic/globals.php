@@ -18,5 +18,5 @@ $THEMES = array(
                 "Rose-Pine-Moon" => "Rosé Pine Moon",
                 "Dracula" => "Dracula"
 );
-$DEFAULT_THEME = 'Gruvbox-Dark';
+$DEFAULT_THEME = 'Catppuccin-Mocha';
 ?>

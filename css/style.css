@@ -20,8 +20,8 @@
     grid-template-columns: 250px 600px;
     grid-template-rows: 70px auto 50px;
     border-radius: 20px;
-    min-width: 880px;
-    max-width: 880px;
+    min-width: 867px;
+    max-width: 867px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -88,12 +88,11 @@ body {
 }
 
 ul {
-    list-style-type: square;
-    margin-left: -10px;
+    margin-left: -15px;
 }
 
 ol {
-    margin-left: -10px;
+    margin-left: -15px;
     counter-reset: item;
 }
 
