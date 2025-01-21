@@ -2,7 +2,7 @@
 
 This is basically just a school assignment that got very out of hand.
 
-Demo currently being hosted [here](https://simplerecipepage.great-site.net).
+Demo currently being hosted [here](https://recipes.yazo.ink).
 
 ### Features
 - switchable themes
@@ -22,9 +22,9 @@ Demo currently being hosted [here](https://simplerecipepage.great-site.net).
 1. create a css file under `css/themes` named `Theme-Name.css`. It should be formatted as such (below is contents of `css/themes/Gruvbox-Dark.css`);
 ```css
 :root {
-    --content-bg: #3c3836;
-    --navbar-bg: #282828;
-    --title-footer-button-select-bg: #1d2021;
+    --bg0: #1d2021;
+    --bg1: #282828;
+    --bg2: #3c3836;
     --a: #83a598;
     --a-hover: #458588;
     --h1: #83a598;
@@ -34,12 +34,10 @@ Demo currently being hosted [here](https://simplerecipepage.great-site.net).
     --h3: #8ec07c;
     --li-marker: #fb4934;
     --fg: #ebdbb2;
-    --border: #665c54;
     --hr: #fabd2f;
 }
 ```
-3. create a page background under `images/backgrounds` named `Theme-Name.png/jpg/etc`.
-4. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
+3. add theme to `$THEMES` array in `dynamic/globals.php` as `"Theme-Name" => "Name to display for the theme in the menu",` (I like to put them in alphabetacal order but it's not necessary).
 
 ### Changing the default theme
 Set `$DEFAULT_THEME` in `dynamic/globals.php` to it's corresponding array key in `$THEMES`.
