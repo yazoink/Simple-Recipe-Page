@@ -13,16 +13,16 @@ $json = json_decode($json_str, true);
         <h3>Links</h3>
         <ul>
         <li><a href='index.php'>Home</a></li>
-        <li><a href='<?php echo $URL_PREFIX; ?>?l=All+Recipes'>All Recipes</a></li>
-        <li><a href='<?php echo $URL_PREFIX; ?>?l=Random+Recipe'>Random Recipe</a></li>
-        <li><a href='<?php echo $URL_PREFIX; ?>?l=Credits'>Credits</a></li>
+        <li><a href='<?php echo $_SERVER['PHP_SELF']; ?>?l=All+Recipes'>All Recipes</a></li>
+        <li><a href='<?php echo $_SERVER['PHP_SELF']; ?>?l=Random+Recipe'>Random Recipe</a></li>
+        <li><a href='<?php echo $_SERVER['PHP_SELF']; ?>?l=Credits'>Credits</a></li>
         </ul>
         <h3>Featured</h3>
         <ul>
             <?php
             foreach ($json as $elem) {
                 if ($elem['featured'] == true) {
-                    $url = $URL_PREFIX . "?r=" . str_replace(' ', '+', $elem['title']);
+                    $url = $_SERVER['PHP_SELF'] . "?r=" . str_replace(' ', '+', $elem['title']);
                     echo "<li><a href='" . $url . "'>" . $elem['title'] . "</a></li>";
                 }
             }
@@ -32,7 +32,7 @@ $json = json_decode($json_str, true);
         <ul>
             <?php
             foreach ($CATEGORIES as $category) {
-                echo "<li><a href='" . $URL_PREFIX . "?c=" . $category . "'>" . $category . "</a></li>";
+                echo "<li><a href='" . $_SERVER['PHP_SELF'] . "?c=" . $category . "'>" . $category . "</a></li>";
             }
             ?>
         </ul>

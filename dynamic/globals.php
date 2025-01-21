@@ -1,5 +1,4 @@
 <?php
-$URL_PREFIX = "index.php";
 $CATEGORIES = array(
                     "Sweet",
                     "Savory",
